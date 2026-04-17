@@ -1,7 +1,7 @@
-from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction
-from skeleton.states import GameState, TerminalState, RoundState
-from skeleton.bot import Bot
-from skeleton.runner import parse_args, run_bot
+from submission.IIT2024011.python_bot.skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction
+from submission.IIT2024011.python_bot.skeleton.states import GameState, TerminalState, RoundState
+from submission.IIT2024011.python_bot.skeleton.bot import Bot
+from submission.IIT2024011.python_bot.skeleton.runner import parse_args, run_bot
 
 class Player(Bot):
     def __init__(self):
